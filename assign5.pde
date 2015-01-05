@@ -101,6 +101,7 @@ void reset() {
     bricks[i].die = false;
   }
   BricksAlive = 50;
+  going = false;
 }
 
 void BricksMaker(int ox, int oy, int spacingX, int spacingY, int num, int numInCol) {
