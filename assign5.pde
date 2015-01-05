@@ -100,6 +100,7 @@ void reset() {
   for (int i = 0; i<bricks.length; i++) {
     bricks[i].die = false;
   }
+  BricksAlive = 50;
 }
 
 void BricksMaker(int ox, int oy, int spacingX, int spacingY, int num, int numInCol) {
